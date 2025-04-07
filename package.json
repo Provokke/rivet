@@ -1,0 +1,11 @@
+{
+  "name": "rivet",
+  "version": "0.1.0",
+  "description": "A tiny event-sourcing library: aggregates, event stores, projections and snapshots.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "license": "MIT"
+}
