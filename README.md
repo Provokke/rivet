@@ -103,3 +103,4 @@ Swap in `new FileStore('./data')` to persist, and pass `snapshots: new FileSnaps
 - Repository and snapshots (10): command round trips, rejected commands, retry on conflict, retry limit, snapshot cadence, snapshot state matching full replay, file snapshot round trip and corrupt file handling.
 - Projections (7): cross-stream folding, incremental catch up, checkpoint resume, rebuild, listeners, mutating handlers, checkpoint copies.
 - Aggregates (6): replay, fresh initial state, event validation, context passing.
+
