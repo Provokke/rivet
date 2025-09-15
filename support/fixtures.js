@@ -30,3 +30,4 @@ export const account = defineAggregate({
     withdrawn: (state, { amount }) => ({ ...state, balance: state.balance - amount })
   }
 });
+
