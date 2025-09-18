@@ -129,3 +129,4 @@ test('file snapshot store round trips and tolerates missing or corrupt files', a
     await rm(dir, { recursive: true, force: true });
   }
 });
+
