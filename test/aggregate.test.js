@@ -44,3 +44,4 @@ test('commands receive a context', () => {
   const [event] = agg.decide({}, 'stamp', {}, { user: 'ada' });
   assert.equal(event.data.by, 'ada');
 });
+
