@@ -63,4 +63,3 @@ export class InMemoryStore extends EventStore {
     return structuredClone(this.#log.filter((r) => r.position > fromPosition));
   }
 }
-

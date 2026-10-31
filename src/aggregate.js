@@ -34,4 +34,3 @@ export function defineAggregate({ name, initialState, commands = {}, events = {}
 
   return { name, initialState: make, apply, replay, decide, preview };
 }
-

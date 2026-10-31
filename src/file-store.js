@@ -79,4 +79,3 @@ export class FileStore extends EventStore {
     });
   }
 }
-

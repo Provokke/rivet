@@ -58,4 +58,3 @@ export class ProjectionRunner {
     return this.catchUp();
   }
 }
-

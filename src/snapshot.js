@@ -42,4 +42,3 @@ export class FileSnapshotStore {
     await rename(temp, target);
   }
 }
-
